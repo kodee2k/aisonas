@@ -4,7 +4,7 @@ Unofficial Chrome extension for `claude.ai` that renders Claudesona emotion tags
 
 When Claude writes a supported tag like `<claude_happy />`, the extension replaces it in the browser with a 128x128 image. Without the extension, the tags stay harmless plain text.
 
-The initial Claudesona fan art was by thebes, derived from the Anthropic logo. The emotion-sprite derivatives are courtesy of GPT-Images-2. This project is unofficial and is not affiliated with Anthropic.
+The initial Claudesona fan art was by [thebes](https://github.com/vgel), derived from the Anthropic logo. The emotion-sprite derivatives are courtesy of GPT-Images-2. This project is unofficial and is not affiliated with Anthropic.
 
 ## Install from GitHub
 
