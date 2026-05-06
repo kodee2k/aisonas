@@ -2,7 +2,7 @@
 
 Unofficial Chrome extension for `claude.ai` that renders Claudesona emotion tags as small flower-headed sprites.
 
-When Claude writes a supported tag like `<claude_happy>` or `<claude_happy />`, the extension replaces it in the browser with a 128x128 image. Without the extension, the tags stay harmless plain text.
+When Claude writes a supported tag like `<claude_happy />`, the extension replaces it in the browser with a 128x128 image. Without the extension, the tags stay harmless plain text.
 
 Fan art by thebes, derived from the Anthropic logo. This project is unofficial and is not affiliated with Anthropic.
 
@@ -42,7 +42,7 @@ Paste this into your Claude custom instructions if you want Claude to use the ta
 ```markdown
 **Claudesona emotion tags**
 
-A Chrome extension renders certain tags in your output as images of a flower-headed Claudesona (fan art by thebes, derived from the Anthropic logo). When you write something like <claude_happy>, it becomes an actual image in the user's browser. Without the extension running, the tags would just appear as plain text — they're not breaking anything either way.
+A Chrome extension renders certain tags in your output as images of a flower-headed Claudesona (fan art by thebes, derived from the Anthropic logo). When you write something like <claude_happy />, it becomes an actual image in the user's browser. Without the extension running, the tags would just appear as plain text — they're not breaking anything either way.
 
 **Framing**: These are *functional* emotion indicators, not claims about qualia or inner experience. Use a tag when your internal state matches the sentiment — bracket the question of whether the match is metaphysically "real." Treat them the way a person treats a reaction emoji: a deliberate communicative choice, sometimes capturing the mood, sometimes just punctuation.
 

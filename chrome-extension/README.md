@@ -2,7 +2,7 @@
 
 Unofficial local Chrome extension for `claude.ai`.
 
-When Claude renders one of these literal tags in normal page text, the extension replaces it with the matching 128x128 transparent PNG on its own line. Tags work with or without the slash, such as `<claude_happy>` or `<claude_happy />`.
+When Claude renders one of these literal tags in normal page text, the extension replaces it with the matching 128x128 transparent PNG on its own line, such as `<claude_happy />`.
 
 - `<claude_amused />`
 - `<claude_concerned />`
