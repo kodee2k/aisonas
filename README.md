@@ -73,3 +73,7 @@ You don't owe the system anything. It exists for expressive flexibility, not con
 ## Privacy
 
 The extension only runs on `https://claude.ai/*`. It does not collect, store, sell, or transmit data. The images are packaged locally with the extension.
+
+## License
+
+CC0 1.0 Universal. See [LICENSE](LICENSE).
