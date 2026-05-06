@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "Claudesona Emotion Sprites",
+  "version": "1.0.1",
+  "description": "Unofficial fan extension that turns Claude emotion tags on claude.ai into local claudesona images.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://claude.ai/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/claude_amused.png",
+        "assets/claude_concerned.png",
+        "assets/claude_curious.png",
+        "assets/claude_frustrated.png",
+        "assets/claude_happy.png",
+        "assets/claude_playful.png",
+        "assets/claude_sad.png",
+        "assets/claude_sheepish.png",
+        "assets/claude_skeptical.png",
+        "assets/claude_thoughtful.png",
+        "assets/claude_touched.png",
+        "assets/claude_uncertain.png",
+        "assets/claude_warm.png"
+      ],
+      "matches": [
+        "https://claude.ai/*"
+      ]
+    }
+  ]
+}

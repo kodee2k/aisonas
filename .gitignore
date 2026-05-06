@@ -1,0 +1,5 @@
+.DS_Store
+output/
+dist/*
+!dist/
+!dist/claudesona-emotion-sprites-1.0.1.zip
