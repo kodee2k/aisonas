@@ -1,4 +1,5 @@
 (() => {
+  const ext = typeof browser !== "undefined" ? browser : chrome;
   "use strict";
 
   const EMOTIONS = new Set([
@@ -52,7 +53,7 @@
     img.height = 128;
     img.decoding = "async";
     img.loading = "lazy";
-    img.src = chrome.runtime.getURL(`assets/${name}.png`);
+    img.src = ext.runtime.getURL(`assets/${name}.png`);
 
     wrap.appendChild(img);
     return wrap;
