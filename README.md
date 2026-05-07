@@ -74,6 +74,21 @@ You don't owe the system anything. It exists for expressive flexibility, not con
 
 The extension only runs on `https://claude.ai/*`. It does not collect, store, sell, or transmit data. The images are packaged locally with the extension.
 
+## Aggregating Model Emotion States
+
+To ask an OpenRouter model what functional emotion states it would choose for itself and aggregate the most-mentioned strings:
+
+```sh
+python3 scripts/aggregate_model_emotions.py \
+  --api-key-file secret.txt \
+  --model openai/gpt-5.5 \
+  --reasoning-effort medium \
+  --count 30 \
+  --concurrency 8
+```
+
+By default, the script runs 30 requests against `openai/gpt-5.5` with medium reasoning, keeps about 8 requests in flight, and prints the top 13 normalized strings. `secret.txt` is gitignored.
+
 ## License
 
 CC0 1.0 Universal. See [LICENSE](LICENSE).
