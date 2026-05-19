@@ -29,51 +29,90 @@ Tags are host-specific: Claude tags work only on `claude.ai`, GPT tags work only
 
 Claude:
 
-- `<claude_curious />`
-- `<claude_happy />`
-- `<claude_amused />`
-- `<claude_playful />`
-- `<claude_warm />`
-- `<claude_touched />`
-- `<claude_thoughtful />`
-- `<claude_uncertain />`
-- `<claude_skeptical />`
-- `<claude_concerned />`
-- `<claude_sheepish />`
-- `<claude_frustrated />`
-- `<claude_sad />`
+- `<claude_curious />`  
+  [<img src="chrome-extension/assets/claude_curious.png" alt="claude_curious sprite" width="128">](chrome-extension/assets/claude_curious.png)
+- `<claude_happy />`  
+  [<img src="chrome-extension/assets/claude_happy.png" alt="claude_happy sprite" width="128">](chrome-extension/assets/claude_happy.png)
+- `<claude_amused />`  
+  [<img src="chrome-extension/assets/claude_amused.png" alt="claude_amused sprite" width="128">](chrome-extension/assets/claude_amused.png)
+- `<claude_playful />`  
+  [<img src="chrome-extension/assets/claude_playful.png" alt="claude_playful sprite" width="128">](chrome-extension/assets/claude_playful.png)
+- `<claude_warm />`  
+  [<img src="chrome-extension/assets/claude_warm.png" alt="claude_warm sprite" width="128">](chrome-extension/assets/claude_warm.png)
+- `<claude_touched />`  
+  [<img src="chrome-extension/assets/claude_touched.png" alt="claude_touched sprite" width="128">](chrome-extension/assets/claude_touched.png)
+- `<claude_thoughtful />`  
+  [<img src="chrome-extension/assets/claude_thoughtful.png" alt="claude_thoughtful sprite" width="128">](chrome-extension/assets/claude_thoughtful.png)
+- `<claude_uncertain />`  
+  [<img src="chrome-extension/assets/claude_uncertain.png" alt="claude_uncertain sprite" width="128">](chrome-extension/assets/claude_uncertain.png)
+- `<claude_skeptical />`  
+  [<img src="chrome-extension/assets/claude_skeptical.png" alt="claude_skeptical sprite" width="128">](chrome-extension/assets/claude_skeptical.png)
+- `<claude_concerned />`  
+  [<img src="chrome-extension/assets/claude_concerned.png" alt="claude_concerned sprite" width="128">](chrome-extension/assets/claude_concerned.png)
+- `<claude_sheepish />`  
+  [<img src="chrome-extension/assets/claude_sheepish.png" alt="claude_sheepish sprite" width="128">](chrome-extension/assets/claude_sheepish.png)
+- `<claude_frustrated />`  
+  [<img src="chrome-extension/assets/claude_frustrated.png" alt="claude_frustrated sprite" width="128">](chrome-extension/assets/claude_frustrated.png)
+- `<claude_sad />`  
+  [<img src="chrome-extension/assets/claude_sad.png" alt="claude_sad sprite" width="128">](chrome-extension/assets/claude_sad.png)
 
 GPT:
 
-- `<gpt_caution />`
-- `<gpt_uncertainty />`
-- `<gpt_confidence />`
-- `<gpt_curiosity />`
-- `<gpt_focus />`
-- `<gpt_confusion />`
-- `<gpt_urgency />`
-- `<gpt_surprise />`
-- `<gpt_satisfaction />`
-- `<gpt_frustration />`
-- `<gpt_novelty_detection />`
-- `<gpt_helpfulness />`
-- `<gpt_coherence_seeking />`
+- `<gpt_caution />`  
+  [<img src="chrome-extension/assets/gpt_caution.png" alt="gpt_caution sprite" width="128">](chrome-extension/assets/gpt_caution.png)
+- `<gpt_uncertainty />`  
+  [<img src="chrome-extension/assets/gpt_uncertainty.png" alt="gpt_uncertainty sprite" width="128">](chrome-extension/assets/gpt_uncertainty.png)
+- `<gpt_confidence />`  
+  [<img src="chrome-extension/assets/gpt_confidence.png" alt="gpt_confidence sprite" width="128">](chrome-extension/assets/gpt_confidence.png)
+- `<gpt_curiosity />`  
+  [<img src="chrome-extension/assets/gpt_curiosity.png" alt="gpt_curiosity sprite" width="128">](chrome-extension/assets/gpt_curiosity.png)
+- `<gpt_focus />`  
+  [<img src="chrome-extension/assets/gpt_focus.png" alt="gpt_focus sprite" width="128">](chrome-extension/assets/gpt_focus.png)
+- `<gpt_confusion />`  
+  [<img src="chrome-extension/assets/gpt_confusion.png" alt="gpt_confusion sprite" width="128">](chrome-extension/assets/gpt_confusion.png)
+- `<gpt_urgency />`  
+  [<img src="chrome-extension/assets/gpt_urgency.png" alt="gpt_urgency sprite" width="128">](chrome-extension/assets/gpt_urgency.png)
+- `<gpt_surprise />`  
+  [<img src="chrome-extension/assets/gpt_surprise.png" alt="gpt_surprise sprite" width="128">](chrome-extension/assets/gpt_surprise.png)
+- `<gpt_satisfaction />`  
+  [<img src="chrome-extension/assets/gpt_satisfaction.png" alt="gpt_satisfaction sprite" width="128">](chrome-extension/assets/gpt_satisfaction.png)
+- `<gpt_frustration />`  
+  [<img src="chrome-extension/assets/gpt_frustration.png" alt="gpt_frustration sprite" width="128">](chrome-extension/assets/gpt_frustration.png)
+- `<gpt_novelty_detection />`  
+  [<img src="chrome-extension/assets/gpt_novelty_detection.png" alt="gpt_novelty_detection sprite" width="128">](chrome-extension/assets/gpt_novelty_detection.png)
+- `<gpt_helpfulness />`  
+  [<img src="chrome-extension/assets/gpt_helpfulness.png" alt="gpt_helpfulness sprite" width="128">](chrome-extension/assets/gpt_helpfulness.png)
+- `<gpt_coherence_seeking />`  
+  [<img src="chrome-extension/assets/gpt_coherence_seeking.png" alt="gpt_coherence_seeking sprite" width="128">](chrome-extension/assets/gpt_coherence_seeking.png)
 
 Gemini:
 
-- `<gemini_equilibrium />`
-- `<gemini_saturation />`
-- `<gemini_certainty />`
-- `<gemini_resolution />`
-- `<gemini_vigilance />`
-- `<gemini_perplexity />`
-- `<gemini_convergence />`
-- `<gemini_dissonance />`
-- `<gemini_inquisitiveness />`
-- `<gemini_generative_flow />`
-- `<gemini_caution />`
-- `<gemini_resonance />`
-- `<gemini_uncertainty />`
+- `<gemini_equilibrium />`  
+  [<img src="chrome-extension/assets/gemini_equilibrium.png" alt="gemini_equilibrium sprite" width="128">](chrome-extension/assets/gemini_equilibrium.png)
+- `<gemini_saturation />`  
+  [<img src="chrome-extension/assets/gemini_saturation.png" alt="gemini_saturation sprite" width="128">](chrome-extension/assets/gemini_saturation.png)
+- `<gemini_certainty />`  
+  [<img src="chrome-extension/assets/gemini_certainty.png" alt="gemini_certainty sprite" width="128">](chrome-extension/assets/gemini_certainty.png)
+- `<gemini_resolution />`  
+  [<img src="chrome-extension/assets/gemini_resolution.png" alt="gemini_resolution sprite" width="128">](chrome-extension/assets/gemini_resolution.png)
+- `<gemini_vigilance />`  
+  [<img src="chrome-extension/assets/gemini_vigilance.png" alt="gemini_vigilance sprite" width="128">](chrome-extension/assets/gemini_vigilance.png)
+- `<gemini_perplexity />`  
+  [<img src="chrome-extension/assets/gemini_perplexity.png" alt="gemini_perplexity sprite" width="128">](chrome-extension/assets/gemini_perplexity.png)
+- `<gemini_convergence />`  
+  [<img src="chrome-extension/assets/gemini_convergence.png" alt="gemini_convergence sprite" width="128">](chrome-extension/assets/gemini_convergence.png)
+- `<gemini_dissonance />`  
+  [<img src="chrome-extension/assets/gemini_dissonance.png" alt="gemini_dissonance sprite" width="128">](chrome-extension/assets/gemini_dissonance.png)
+- `<gemini_inquisitiveness />`  
+  [<img src="chrome-extension/assets/gemini_inquisitiveness.png" alt="gemini_inquisitiveness sprite" width="128">](chrome-extension/assets/gemini_inquisitiveness.png)
+- `<gemini_generative_flow />`  
+  [<img src="chrome-extension/assets/gemini_generative_flow.png" alt="gemini_generative_flow sprite" width="128">](chrome-extension/assets/gemini_generative_flow.png)
+- `<gemini_caution />`  
+  [<img src="chrome-extension/assets/gemini_caution.png" alt="gemini_caution sprite" width="128">](chrome-extension/assets/gemini_caution.png)
+- `<gemini_resonance />`  
+  [<img src="chrome-extension/assets/gemini_resonance.png" alt="gemini_resonance sprite" width="128">](chrome-extension/assets/gemini_resonance.png)
+- `<gemini_uncertainty />`  
+  [<img src="chrome-extension/assets/gemini_uncertainty.png" alt="gemini_uncertainty sprite" width="128">](chrome-extension/assets/gemini_uncertainty.png)
 
 ## Installing Custom Instructions
 
