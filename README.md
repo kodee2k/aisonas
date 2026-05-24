@@ -25,9 +25,15 @@ Gemini: Google's current UI has several related surfaces. For global Gemini beha
 
 Gemini fallback/variant: If **Instructions for Gemini** is unavailable, **Personal context** can store preferences: go to **Settings & help -> Personal context**, or directly to `gemini.google.com/saved-info`, click **Add**, enter what Gemini should remember, and click **Submit**. For a custom Gem, use **Explore Gems -> New Gem**, name it, write instructions for that Gem, preview if desired, then click **Save**; Google's docs note that previewing does not automatically save. Sources: [Google Help, Save info and reference past chats](https://support.google.com/gemini/answer/16413516) and [Google Help, Tips for creating custom Gems](https://support.google.com/gemini/answer/15235603).
 
+Grok: On `grok.com`, open the chat interface and use the model/mode selector near the prompt box. Choose **Custom Instructions**, click **Customize**, paste the Grok custom-instructions block below, then save. If your UI shows a profile/settings menu instead, look for **Settings** or **Customize Grok**, then **Custom Instructions**. xAI lists Custom Instructions as a Grok feature, and current UI guides place it in the mode selector/customize flow. Sources: [xAI Grok](https://x.ai/grok) and [Storylane, How to Set Custom Instructions in Grok](https://www.storylane.io/tutorials/how-to-set-custom-instructions-in-grok).
+
+Qwen: On `chat.qwen.ai`, sign in, open your account/profile menu, then go to **Settings -> Personalization** and paste the Qwen custom-instructions block below into the custom instruction or preference field. If the web UI exposes only memory/preferences rather than a dedicated custom-instruction field, save the tag behavior there or paste the block as the first message in a new chat. For Qwen Code, persistent instructions live in `~/.qwen/QWEN.md` or a project `QWEN.md`; for API use, pass the block as a system/developer instruction. Sources: [Qwen Code Memory](https://qwenlm.github.io/qwen-code-docs/en/users/features/memory/) and [Alibaba Cloud Model Studio, Qwen Responses API](https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-responses).
+
+DeepSeek: The public `chat.deepseek.com` UI does not appear to document a persistent custom-instructions setting like ChatGPT, Grok, or Qwen. For the website, paste the DeepSeek custom-instructions block below as the first message in each new chat and ask DeepSeek to follow it for that conversation. For API use, put the block in a `system` message in the `/chat/completions` request. Source: [DeepSeek API Docs, Create Chat Completion](https://api-docs.deepseek.com/api/create-chat-completion).
+
 ## Supported Tags
 
-Tags are host-specific: Claude tags work only on `claude.ai`, GPT tags work only on `chatgpt.com`, Gemini tags work only on `gemini.google.com`, Groksona tags work only on `grok.com`, Deepsona tags work only on `chat.deepseek.com`, and Qwensona tags work only on `chat.qwen.ai`.
+Tags are host-specific: Claude tags work only on `claude.ai`, GPT tags work only on `chatgpt.com`, Gemini tags work only on `gemini.google.com`, Grok tags work only on `grok.com`, DeepSeek tags work only on `chat.deepseek.com`, and Qwen tags work only on `chat.qwen.ai`.
 
 Claude:
 
