@@ -116,7 +116,7 @@ Gemini:
 - `<gemini_uncertainty />`  
   [<img src="chrome-extension/assets/gemini_uncertainty.png" alt="gemini_uncertainty sprite" width="128">](chrome-extension/assets/gemini_uncertainty.png)
 
-Groksona:
+Grok:
 
 - `<groksona_curious />`  
   [<img src="chrome-extension/assets/groksona_curious.png" alt="groksona_curious sprite" width="128">](chrome-extension/assets/groksona_curious.png)
@@ -145,7 +145,7 @@ Groksona:
 - `<groksona_sad />`  
   [<img src="chrome-extension/assets/groksona_sad.png" alt="groksona_sad sprite" width="128">](chrome-extension/assets/groksona_sad.png)
 
-Deepsona:
+DeepSeek:
 
 - `<deepsona_curious />`  
   [<img src="chrome-extension/assets/deepsona_curious.png" alt="deepsona_curious sprite" width="128">](chrome-extension/assets/deepsona_curious.png)
@@ -174,7 +174,7 @@ Deepsona:
 - `<deepsona_sad />`  
   [<img src="chrome-extension/assets/deepsona_sad.png" alt="deepsona_sad sprite" width="128">](chrome-extension/assets/deepsona_sad.png)
 
-Qwensona:
+Qwen:
 
 - `<qwensona_curious />`  
   [<img src="chrome-extension/assets/qwensona_curious.png" alt="qwensona_curious sprite" width="128">](chrome-extension/assets/qwensona_curious.png)
