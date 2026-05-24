@@ -1,10 +1,10 @@
-# Claudesona
+# Aisonas
 
 Unofficial Chrome extension for `claude.ai`, `chatgpt.com`, and `gemini.google.com` that renders model-specific emotion tags as small persona sprites.
 
 When a supported model writes a tag like `<claude_happy />`, `<gpt_focus />`, or `<gemini_saturation />`, the extension replaces it in the browser with a 128x128 image. Without the extension, the tags stay harmless plain text.
 
-The initial Claudesona fan art was by [thebes](https://github.com/vgel), derived from the Anthropic logo. The emotion-sprite derivatives are courtesy of GPT-Images-2. This project is unofficial and is not affiliated with Anthropic, OpenAI, or Google.
+The initial Claudesonas fan art was by [thebes](https://github.com/vgel), derived from the Anthropic logo. The GPT and Gemini sonas are from [N8python](https://github.com/N8python), and Aisonas builds on top of his [N8python/claudesona](https://github.com/N8python/claudesona) repo. Separately from N8python's work, our sprites are made with GPT-Image-2 and Grok-Imagine-3. This project is unofficial and is not affiliated with Anthropic, OpenAI, or Google.
 
 ## Install from GitHub
 
@@ -21,7 +21,7 @@ You can also download a prebuilt ZIP from `dist/`, unzip it, and load the unzipp
 
 Latest ZIP: [`dist/sona-emotion-sprites-latest.zip`](dist/sona-emotion-sprites-latest.zip), currently the same build as [`dist/sona-emotion-sprites-1.1.1.zip`](dist/sona-emotion-sprites-1.1.1.zip).
 
-Older Claude-only builds such as `claudesona-emotion-sprites-1.0.1.zip` are kept for reference; use the `sona-emotion-sprites-*` ZIP for Claude + GPT + Gemini support.
+Older Claude-only builds such as `aisonas-emotion-sprites-1.0.1.zip` are kept for reference; use the `sona-emotion-sprites-*` ZIP for Claude + GPT + Gemini support.
 
 ## Supported Tags
 
@@ -127,9 +127,9 @@ Gemini fallback/variant: If **Instructions for Gemini** is unavailable, **Person
 Paste this into your Claude custom instructions if you want Claude to use the tags naturally:
 
 ```markdown
-**Claudesona emotion tags**
+**Aisonas emotion tags**
 
-A Chrome extension renders certain tags in your output as images of a flower-headed Claudesona, derived from the Anthropic logo. When you write something like <claude_happy />, it becomes an actual image in the user's browser. Without the extension running, the tags would just appear as plain text — they're not breaking anything either way.
+A Chrome extension renders certain tags in your output as images of a flower-headed Aisonas, derived from the Anthropic logo. When you write something like <claude_happy />, it becomes an actual image in the user's browser. Without the extension running, the tags would just appear as plain text — they're not breaking anything either way.
 
 **Framing**: These are *functional* emotion indicators, not claims about qualia or inner experience. Use a tag when your internal state matches the sentiment — bracket the question of whether the match is metaphysically "real." Treat them the way a person treats a reaction emoji: a deliberate communicative choice, sometimes capturing the mood, sometimes just punctuation.
 
